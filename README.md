@@ -1,1 +1,1 @@
-# Lottie Animations
+# Lottie Animations App
