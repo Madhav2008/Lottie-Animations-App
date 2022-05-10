@@ -25,7 +25,6 @@ class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
   // always marked "final".
-
   final String title;
 
   @override
