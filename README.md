@@ -1,1 +1,1 @@
-# Lottie
+# Lottie Animations
