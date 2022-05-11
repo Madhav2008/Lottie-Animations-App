@@ -6,6 +6,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/rendering.dart';
 import 'package:lottie_animations_app/Screens/Animation1_Screen/Animation1_Screen.dart';
 import 'package:lottie_animations_app/Screens/Animation2_Screen/Animation2_Screen.dart';
+import 'package:lottie_animations_app/Screens/Animation3_Screen/Animation3_Screen.dart';
 
 class NavigationScreen extends StatefulWidget {
   const NavigationScreen({Key? key}) : super(key: key);
@@ -18,7 +19,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
   final List<Widget> _tabItems = [
     Animation1Screen(),
     Animation2Screen(),
-    Anima
+    Animation3Screen()
   ];
   int _page = 0;
   GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
