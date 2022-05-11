@@ -17,7 +17,8 @@ class NavigationScreen extends StatefulWidget {
 class _NavigationScreenState extends State<NavigationScreen> {
   final List<Widget> _tabItems = [
     Animation1Screen(),
-    Animation2Screen()
+    Animation2Screen(),
+    Anima
   ];
   int _page = 0;
   GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
