@@ -91,7 +91,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
                     children: [
                       // Icon(Icons.favorite),
                       // SizedBox(width:5),
-                      Image.asset(
+                      Image.network(
                         'https://raw.githubusercontent.com/Madhav2008/RECIPO/master/assets/images/no-internet.png',
                         width: 130,
                         height: 130,
