@@ -38,12 +38,16 @@ class _NavigationScreenState extends State<NavigationScreen> {
               index: 0,
               height: 50,
               items: [
-                Icon(Icons.home_filled,
-                    size: 30,
-                    color: (_page == 0) ? Colors.redAccent : Colors.white,),
-                Icon(Icons.category_sharp,
-                    size: 30,
-                    color: (_page == 1) ? Colors.redAccent : Colors.white),
+                Icon(
+                  Icons.home_filled,
+                  size: 30,
+                  color: (_page == 0) ? Colors.redAccent : Colors.white,
+                ),
+                Icon(
+                  Icons.category_sharp,
+                  size: 30,
+                  color: (_page == 1) ? Colors.redAccent : Colors.white,
+                ),
                 Icon(Icons.add_box,
                     size: 30,
                     color: (_page == 2) ? Colors.redAccent : Colors.white),
