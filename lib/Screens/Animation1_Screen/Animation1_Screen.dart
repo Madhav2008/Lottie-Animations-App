@@ -2,14 +2,14 @@
 
 import 'package:flutter/material.dart';
 
-class AnimationScreen extends StatefulWidget {
-  const AnimationScreen({ Key? key }) : super(key: key);
+class Animation1Screen extends StatefulWidget {
+  const Animation1Screen({ Key? key }) : super(key: key);
 
   @override
-  State<AnimationScreen> createState() => _AnimationScreenState();
+  State<Animation1Screen> createState() => _Animation1ScreenState();
 }
 
-class _AnimationScreenState extends State<AnimationScreen> {
+class _Animation1ScreenState extends State<Animation1Screen> {
   @override
   Widget build(BuildContext context) {
     return Container(
