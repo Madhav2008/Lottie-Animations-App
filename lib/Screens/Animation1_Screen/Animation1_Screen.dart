@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 
 class Animation1Screen extends StatefulWidget {
-  const Animation1Screen({ Key? key }) : super(key: key);
+  const Animation1Screen({Key? key}) : super(key: key);
 
   @override
   State<Animation1Screen> createState() => _Animation1ScreenState();
@@ -12,8 +12,6 @@ class Animation1Screen extends StatefulWidget {
 class _Animation1ScreenState extends State<Animation1Screen> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
-    );
+    return Container();
   }
 }
