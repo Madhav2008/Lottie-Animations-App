@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class AnimationScreen extends StatefulWidget {
   const AnimationScreen({ Key? key }) : super(key: key);
 
