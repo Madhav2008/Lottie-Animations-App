@@ -16,7 +16,7 @@ class _Animation1ScreenState extends State<Animation1Screen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
-        title: Text(
+        title: const Text(
           'Animation 1',
           style: TextStyle(
             color: Colors.white,
