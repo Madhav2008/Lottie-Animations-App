@@ -22,13 +22,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Recipo',
         initialRoute: '/',
-        routes: {
-          '/': (context) => SplashScreen(),
-          '/loginScreen': (context) => LoginScreen(),
-          '/navigationScreen': (context) => Navigation(),
-          '/forgetScreen': (context) => ForgetScreen(),
-          '/registerScreen': (context) => RegisterScreen(),
-        },
+        
       )
     );
   }
