@@ -51,6 +51,7 @@ class _Animation2ScreenState extends State<Animation2Screen>
         centerTitle: true,
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const Text(
             'Tap',
