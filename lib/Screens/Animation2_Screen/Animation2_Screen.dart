@@ -50,39 +50,37 @@ class _Animation2ScreenState extends State<Animation2Screen>
         ),
         centerTitle: true,
       ),
-      body: Center(
-        child: Column(
-          children: [
-            const Text(
-              'Tap',
-              style: TextStyle(
-                color: Colors.black,
-                fontSize: 30,
-                fontWeight: FontWeight.bold,
-              ),
+      body: Column(
+        children: [
+          const Text(
+            'Tap',
+            style: TextStyle(
+              color: Colors.black,
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
             ),
-            const SizedBox(
-              height: 20,
+          ),
+          const SizedBox(
+            height: 20,
+          ),
+          GestureDetector(
+            onTap: () {
+              if (liked == false) {
+                liked = true;
+                _controller.forward();
+              } else {
+                liked = false;
+                _controller.reverse();
+              }
+            },
+            child: Lottie.network(
+              'https://assets6.lottiefiles.com/packages/lf20_ylbsrzek.json',
+              width: MediaQuery.of(context).size.width / 2,
+              height: MediaQuery.of(context).size.height / 2,
+              controller: _controller,
             ),
-            GestureDetector(
-              onTap: () {
-                if (liked == false) {
-                  liked = true;
-                  _controller.forward();
-                } else {
-                  liked = false;
-                  _controller.reverse();
-                }
-              },
-              child: Lottie.network(
-                'https://assets6.lottiefiles.com/packages/lf20_ylbsrzek.json',
-                width: MediaQuery.of(context).size.width / 2,
-                height: MediaQuery.of(context).size.height / 2,
-                controller: _controller,
-              ),
-            ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
