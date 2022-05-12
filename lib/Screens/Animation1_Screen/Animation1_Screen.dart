@@ -15,7 +15,8 @@ class _Animation1ScreenState extends State<Animation1Screen> {
   Widget build(BuildContext context) {
     return Center(
       child: Lottie.network(
-          'https://assets3.lottiefiles.com/packages/lf20_jrpzvtqz.json',),
+        'https://assets3.lottiefiles.com/packages/lf20_jrpzvtqz.json',
+      ),
     );
   }
 }
