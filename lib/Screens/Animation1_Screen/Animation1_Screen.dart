@@ -15,7 +15,10 @@ class _Animation1ScreenState extends State<Animation1Screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Animation 1', style: TextStyle(),),
+        title: Text(
+          'Animation 1',
+          style: TextStyle(),
+        ),
         centerTitle: true,
       ),
       body: Center(
