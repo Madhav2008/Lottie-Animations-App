@@ -19,7 +19,7 @@ class _Animation1ScreenState extends State<Animation1Screen> {
           'Animation 1',
           style: TextStyle(
             color: Colors.white,
-            fontSize: 25,
+            fontSize: 25,fontWeight: FontWeight.bold
           ),
         ),
         centerTitle: true,
