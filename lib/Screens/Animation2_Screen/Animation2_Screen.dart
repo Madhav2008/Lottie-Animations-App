@@ -34,7 +34,7 @@ class _Animation2ScreenState extends State<Animation2Screen>
   Widget build(BuildContext context) {
     return Center(
       child: GestureDetector(
-        onTap: (){},
+        onTap: () {},
         child: Lottie.network(
           'https://assets8.lottiefiles.com/packages/lf20_hqlccpsv.json',
           width: MediaQuery.of(context).size.width / 2,
