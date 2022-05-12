@@ -26,39 +26,39 @@ class _NavigationScreenState extends State<NavigationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-            bottomNavigationBar: CurvedNavigationBar(
-              key: _bottomNavigationKey,
-              index: 0,
-              height: 50,
-              items: [
-                Icon(
-                  Icons.home_filled,
-                  size: 30,
-                  color: (_page == 0) ? Colors.redAccent : Colors.white,
-                ),
-                Icon(
-                  Icons.category_sharp,
-                  size: 30,
-                  color: (_page == 1) ? Colors.redAccent : Colors.white,
-                ),
-                Icon(
-                  Icons.add_box,
-                  size: 30,
-                  color: (_page == 2) ? Colors.redAccent : Colors.white,
-                ),
-              ],
-              color: Color.fromRGBO(226, 55, 68, 0.60),
-              buttonBackgroundColor: Colors.grey[50],
-              backgroundColor: Color.fromRGBO(226, 55, 68, 0.60),
-              animationDuration: Duration(milliseconds: 500),
-              onTap: (index) {
-                setState(() {
-                  _page = index;
-                });
-              },
-              letIndexChange: (index) => true,
-            ),
-            body: _tabItems[_page],
-          );
+      bottomNavigationBar: CurvedNavigationBar(
+        key: _bottomNavigationKey,
+        index: 0,
+        height: 50,
+        items: [
+          Icon(
+            Icons.home_filled,
+            size: 30,
+            color: (_page == 0) ? Colors.redAccent : Colors.white,
+          ),
+          Icon(
+            Icons.category_sharp,
+            size: 30,
+            color: (_page == 1) ? Colors.redAccent : Colors.white,
+          ),
+          Icon(
+            Icons.add_box,
+            size: 30,
+            color: (_page == 2) ? Colors.redAccent : Colors.white,
+          ),
+        ],
+        color: Color.fromRGBO(226, 55, 68, 0.60),
+        buttonBackgroundColor: Colors.grey[50],
+        backgroundColor: Color.fromRGBO(226, 55, 68, 0.60),
+        animationDuration: Duration(milliseconds: 500),
+        onTap: (index) {
+          setState(() {
+            _page = index;
+          });
+        },
+        letIndexChange: (index) => true,
+      ),
+      body: _tabItems[_page],
+    );
   }
 }
