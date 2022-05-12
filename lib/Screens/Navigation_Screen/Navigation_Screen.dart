@@ -25,7 +25,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return Scaffold(
             bottomNavigationBar: CurvedNavigationBar(
               key: _bottomNavigationKey,
               index: 0,
