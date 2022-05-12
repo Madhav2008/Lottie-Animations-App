@@ -15,6 +15,7 @@ class _Animation1ScreenState extends State<Animation1Screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue[900],
         title: Text(
           'Animation 1',
           style: TextStyle(
