@@ -17,7 +17,25 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const NavigationScreen(),
+      home: return MultiProvider(
+      providers: [
+        Provider<AuthService>(
+          create: (_) => AuthService(),
+        ),
+      ],
+       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'Recipo',
+        initialRoute: '/',
+        routes: {
+          '/': (context) => SplashScreen(),
+          '/loginScreen': (context) => LoginScreen(),
+          '/navigationScreen': (context) => Navigation(),
+          '/forgetScreen': (context) => ForgetScreen(),
+          '/registerScreen': (context) => RegisterScreen(),
+        },
+      )
+    );
     );
   }
 }
