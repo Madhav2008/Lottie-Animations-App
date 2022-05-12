@@ -17,7 +17,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
   final List<Widget> _tabItems = [
     const Animation1Screen(),
     const Animation2Screen(),
-    Animation3Screen(),
+    const Animation3Screen(),
   ];
   int _page = 0;
   final GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
