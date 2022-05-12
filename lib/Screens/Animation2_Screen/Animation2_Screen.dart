@@ -39,6 +39,7 @@ class _Animation2ScreenState extends State<Animation2Screen>
             liked = true;
             _controller.forward();
           } else {
+            liked = false;
             _controller.reverse();
           }
         },
