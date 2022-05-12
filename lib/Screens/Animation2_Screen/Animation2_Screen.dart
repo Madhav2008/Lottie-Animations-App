@@ -37,22 +37,24 @@ class _Animation2ScreenState extends State<Animation2Screen>
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: GestureDetector(
-        onTap: () {
-          if (liked == false) {
-            liked = true;
-            _controller.forward();
-          } else {
-            liked = false;
-            _controller.reverse();
-          }
-        },
-        child: Lottie.network(
-          'https://assets6.lottiefiles.com/packages/lf20_ylbsrzek.json',
-          width: MediaQuery.of(context).size.width / 2,
-          height: MediaQuery.of(context).size.height / 2,
-          controller: _controller,
+    return Scaffold(
+      child: Center(
+        child: GestureDetector(
+          onTap: () {
+            if (liked == false) {
+              liked = true;
+              _controller.forward();
+            } else {
+              liked = false;
+              _controller.reverse();
+            }
+          },
+          child: Lottie.network(
+            'https://assets6.lottiefiles.com/packages/lf20_ylbsrzek.json',
+            width: MediaQuery.of(context).size.width / 2,
+            height: MediaQuery.of(context).size.height / 2,
+            controller: _controller,
+          ),
         ),
       ),
     );
