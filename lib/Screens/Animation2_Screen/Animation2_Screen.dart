@@ -19,6 +19,7 @@ class _Animation2ScreenState extends State<Animation2Screen>
     super.initState();
 
     _controller = AnimationController(
+      duration: Duration(seconds: 2),
       vsync: this,
     );
   }
