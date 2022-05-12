@@ -35,7 +35,8 @@ class _Animation2ScreenState extends State<Animation2Screen>
     return Center(
       child: GestureDetector(
         onTap: () {
-          if (liked == false) {}else{}
+          if (liked == false) {
+          } else {}
         },
         child: Lottie.network(
           'https://assets8.lottiefiles.com/packages/lf20_hqlccpsv.json',
