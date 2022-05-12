@@ -16,6 +16,7 @@ class _Animation1ScreenState extends State<Animation1Screen> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Animation 1'),
+        centerTitle: true,
       ),
       body: Center(
         child: Lottie.network(
