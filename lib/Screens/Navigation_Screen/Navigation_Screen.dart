@@ -61,6 +61,5 @@ class _NavigationScreenState extends State<NavigationScreen> {
             body: _tabItems[_page],
           );
         
-    );
   }
 }
