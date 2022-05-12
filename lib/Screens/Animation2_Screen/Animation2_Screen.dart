@@ -28,6 +28,8 @@ class _Animation2ScreenState extends State<Animation2Screen>
     _controller.dispose();
   }
 
+  bool liked = false;
+
   @override
   Widget build(BuildContext context) {
     return Center(
