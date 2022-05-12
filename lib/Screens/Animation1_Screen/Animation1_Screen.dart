@@ -17,7 +17,9 @@ class _Animation1ScreenState extends State<Animation1Screen> {
       appBar: AppBar(
         title: Text(
           'Animation 1',
-          style: TextStyle(),
+          style: TextStyle(
+            color: Colors.white
+          ),
         ),
         centerTitle: true,
       ),
