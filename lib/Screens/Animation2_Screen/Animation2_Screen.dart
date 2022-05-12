@@ -23,7 +23,6 @@ class _Animation2ScreenState extends State<Animation2Screen>
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
   }
 
