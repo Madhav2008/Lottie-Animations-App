@@ -20,7 +20,7 @@ class _Animation2ScreenState extends State<Animation2Screen>
 
     _controller = AnimationController(
       duration: const Duration(
-        seconds: 2,
+        seconds: 3,
       ),
       vsync: this,
     );
