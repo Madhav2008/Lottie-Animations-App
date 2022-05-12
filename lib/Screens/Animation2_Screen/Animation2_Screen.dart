@@ -36,6 +36,7 @@ class _Animation2ScreenState extends State<Animation2Screen>
       child: GestureDetector(
         onTap: () {
           if (liked == false) {
+            liked = true;
           } else {}
         },
         child: Lottie.network(
