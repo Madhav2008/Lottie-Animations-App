@@ -20,7 +20,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
     Animation3Screen(),
   ];
   int _page = 0;
-  GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
+  final GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
 
   @override
   Widget build(BuildContext context) {
