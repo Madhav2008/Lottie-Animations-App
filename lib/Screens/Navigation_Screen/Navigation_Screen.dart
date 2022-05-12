@@ -49,7 +49,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
         color: const Color(0xFF3e3ffb),
         buttonBackgroundColor: Colors.grey[50],
         backgroundColor: const Color(0xFF553fff),
-        animationDuration: Duration(milliseconds: 500),
+        animationDuration: const Duration(milliseconds: 500),
         onTap: (index) {
           setState(() {
             _page = index;
