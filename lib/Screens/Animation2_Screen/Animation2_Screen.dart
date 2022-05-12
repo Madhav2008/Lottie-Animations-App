@@ -38,7 +38,7 @@ class _Animation2ScreenState extends State<Animation2Screen>
           if (liked == false) {
             _controller.forward();
           } else {
-            liked = false;
+            _controller.reverse();
           }
         },
         child: Lottie.network(
