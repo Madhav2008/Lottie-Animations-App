@@ -17,7 +17,7 @@ class _Animation3ScreenState extends State<Animation3Screen> {
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text(
-          'Animation 1',
+          'Animation 3',
           style: TextStyle(
             color: Colors.white,
             fontSize: 25,
