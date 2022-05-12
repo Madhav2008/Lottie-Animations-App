@@ -57,6 +57,7 @@ class _Animation2ScreenState extends State<Animation2Screen>
               'Tap',
               style: TextStyle(
                 fontSize: 30,
+                fontWeight: FontWeight.bold
               ),
             ),
             const SizedBox(
