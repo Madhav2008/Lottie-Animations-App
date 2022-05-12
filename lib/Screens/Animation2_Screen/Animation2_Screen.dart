@@ -36,7 +36,7 @@ class _Animation2ScreenState extends State<Animation2Screen>
       child: GestureDetector(
         onTap: () {
           if (liked == false) {
-            liked = true;
+            _controller.forward();
           } else {
             liked = false;
           }
