@@ -15,7 +15,6 @@ class _Animation2ScreenState extends State<Animation2Screen> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
   }
   @override
