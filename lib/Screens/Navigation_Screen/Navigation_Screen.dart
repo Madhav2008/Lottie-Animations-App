@@ -33,7 +33,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
           Icon(
             Icons.animation,
             size: 30,
-            color: (_page == 0) ? Colors.redAccent : Colors.white,
+            color: (_page == 0) ? Color(0xFF2a46c2) : Colors.white,
           ),
           Icon(
             Icons.looks_two,
