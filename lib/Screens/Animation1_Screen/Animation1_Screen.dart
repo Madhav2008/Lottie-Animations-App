@@ -15,7 +15,7 @@ class _Animation1ScreenState extends State<Animation1Screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(),
+        title: Text(''),
       ),
       body: Center(
         child: Lottie.network(
