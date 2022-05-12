@@ -13,11 +13,13 @@ class Animation1Screen extends StatefulWidget {
 class _Animation1ScreenState extends State<Animation1Screen> {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Lottie.network(
-        'https://assets3.lottiefiles.com/packages/lf20_puciaact.json',
-        width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height / 2,
+    return Scaffold(
+      child: Center(
+        child: Lottie.network(
+          'https://assets3.lottiefiles.com/packages/lf20_puciaact.json',
+          width: MediaQuery.of(context).size.width,
+          height: MediaQuery.of(context).size.height / 2,
+        ),
       ),
     );
   }
