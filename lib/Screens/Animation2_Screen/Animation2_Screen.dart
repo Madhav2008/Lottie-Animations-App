@@ -10,7 +10,7 @@ class Animation2Screen extends StatefulWidget {
   State<Animation2Screen> createState() => _Animation2ScreenState();
 }
 
-class _Animation2ScreenState extends State<Animation2Screen> {
+class _Animation2ScreenState extends State<Animation2Screen> with SingleTickerProviderStateMixin{
   late final AnimationController _controller;
 
   @override
