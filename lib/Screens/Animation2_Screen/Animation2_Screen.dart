@@ -14,6 +14,10 @@ class _Animation2ScreenState extends State<Animation2Screen> {
   late final AnimationController _controller;
 
   @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+  }
   @override
   Widget build(BuildContext context) {
     return Center(
