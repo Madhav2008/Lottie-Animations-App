@@ -12,6 +12,6 @@ class Animation3Screen extends StatefulWidget {
 class _Animation3ScreenState extends State<Animation3Screen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center();
   }
 }
