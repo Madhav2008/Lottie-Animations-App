@@ -56,6 +56,7 @@ class _Animation2ScreenState extends State<Animation2Screen>
             const Text(
               'Tap',
               style: TextStyle(
+                color: Colors.black,
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
               ),
