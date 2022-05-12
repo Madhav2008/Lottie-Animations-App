@@ -16,6 +16,8 @@ class _Animation2ScreenState extends State<Animation2Screen> with SingleTickerPr
   @override
   void initState() {
     super.initState();
+
+    _controller = AnimationController(vsync: this)
   }
   @override
   Widget build(BuildContext context) {
