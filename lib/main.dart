@@ -12,12 +12,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Lottie Animations App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: return MultiProvider(
+    return MultiProvider(
       providers: [
         Provider<AuthService>(
           create: (_) => AuthService(),
@@ -35,7 +30,6 @@ class MyApp extends StatelessWidget {
           '/registerScreen': (context) => RegisterScreen(),
         },
       )
-    );
     );
   }
 }
