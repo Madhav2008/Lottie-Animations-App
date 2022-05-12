@@ -49,7 +49,7 @@ class _Animation2ScreenState extends State<Animation2Screen>
           }
         },
         child: Lottie.network(
-          'https://assets8.lottiefiles.com/private_files/lf30_yrtwekju.json',
+          'https://assets6.lottiefiles.com/packages/lf20_ylbsrzek.json',
           width: MediaQuery.of(context).size.width / 2,
           height: MediaQuery.of(context).size.height / 2,
           controller: _controller,
