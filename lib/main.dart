@@ -12,16 +12,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MultiProvider(
-      providers: [
-        Provider<AuthService>(
-          create: (_) => AuthService(),
-        ),
-      ],
-       child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Recipo',
-      )
+    return MaterialApp(
+      title: 'Lottie Animations App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: const NavigationScreen(),
     );
   }
 }
