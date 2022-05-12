@@ -46,7 +46,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
             color: (_page == 2) ? const Color(0xFF2a46c2) : Colors.white,
           ),
         ],
-        color: const Color(0xFF3e3ffb),
+        // color: const Color(0xFF3e3ffb),
         buttonBackgroundColor: Colors.grey[50],
         backgroundColor: const Color(0xFF553fff),
         animationDuration: const Duration(milliseconds: 500),
