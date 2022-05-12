@@ -22,6 +22,8 @@ class _Animation2ScreenState extends State<Animation2Screen>
   }
 
   @override
+
+  @override
   Widget build(BuildContext context) {
     return Center(
       child: Lottie.network(
