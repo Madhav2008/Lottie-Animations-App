@@ -24,6 +24,8 @@ class _Animation2ScreenState extends State<Animation2Screen>
   @override
   void dispose() {
     super.dispose();
+
+    _controller.dispose();
   }
 
   @override
