@@ -33,11 +33,13 @@ class _Animation2ScreenState extends State<Animation2Screen>
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Lottie.network(
-        'https://assets8.lottiefiles.com/packages/lf20_hqlccpsv.json',
-        width: MediaQuery.of(context).size.width / 2,
-        height: MediaQuery.of(context).size.height / 2,
-        controller: _controller,
+      child: GestureDetector(
+        child: Lottie.network(
+          'https://assets8.lottiefiles.com/packages/lf20_hqlccpsv.json',
+          width: MediaQuery.of(context).size.width / 2,
+          height: MediaQuery.of(context).size.height / 2,
+          controller: _controller,
+        ),
       ),
     );
   }
