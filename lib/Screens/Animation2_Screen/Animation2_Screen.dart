@@ -38,6 +38,18 @@ class _Animation2ScreenState extends State<Animation2Screen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blue[900],
+        title: const Text(
+          'Animation 1',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 25,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        centerTitle: true,
+      ),
       body: Center(
         child: GestureDetector(
           onTap: () {
