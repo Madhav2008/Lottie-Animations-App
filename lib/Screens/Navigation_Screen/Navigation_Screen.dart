@@ -16,7 +16,7 @@ class NavigationScreen extends StatefulWidget {
 class _NavigationScreenState extends State<NavigationScreen> {
   final List<Widget> _tabItems = [
     const Animation1Screen(),
-    Animation2Screen(),
+    const Animation2Screen(),
     Animation3Screen(),
   ];
   int _page = 0;
