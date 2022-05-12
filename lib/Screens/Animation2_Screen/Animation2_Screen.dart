@@ -1,6 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class Animation2Screen extends StatefulWidget {
   const Animation2Screen({Key? key}) : super(key: key);
