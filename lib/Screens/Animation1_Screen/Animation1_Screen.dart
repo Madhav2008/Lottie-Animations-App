@@ -1,6 +1,7 @@
 // ignore_for_file: file_names
 
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class Animation1Screen extends StatefulWidget {
   const Animation1Screen({Key? key}) : super(key: key);
@@ -13,7 +14,7 @@ class _Animation1ScreenState extends State<Animation1Screen> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: ,
+      child: Lottie.network(url),
     );
   }
 }
