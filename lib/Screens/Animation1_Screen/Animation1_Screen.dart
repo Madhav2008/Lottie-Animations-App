@@ -17,6 +17,7 @@ class _Animation1ScreenState extends State<Animation1Screen> {
       child: Lottie.network(
         'https://assets3.lottiefiles.com/packages/lf20_jrpzvtqz.json',
         width: MediaQuery.of(context).size.width / 2,
+        
       ),
     );
   }
