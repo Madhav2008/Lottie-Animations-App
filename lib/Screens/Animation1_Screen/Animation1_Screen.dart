@@ -15,7 +15,7 @@ class _Animation1ScreenState extends State<Animation1Screen> {
   Widget build(BuildContext context) {
     return Center(
       child: Lottie.network(
-        'https://assets3.lottiefiles.com/private_files/lf30_TBKozE.json',
+        'https://lottiefiles.com/85795-man-and-woman-say-hi',
         width: MediaQuery.of(context).size.width / 2,
         height: MediaQuery.of(context).size.height / 2,
       ),
