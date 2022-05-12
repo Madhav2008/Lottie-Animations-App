@@ -31,7 +31,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
         height: 50,
         items: [
           Icon(
-            Icons.looks,
+            Icons.animation,
             size: 30,
             color: (_page == 0) ? Colors.redAccent : Colors.white,
           ),
