@@ -53,7 +53,10 @@ class _Animation2ScreenState extends State<Animation2Screen>
       body: Center(
         child: Column(
           children: [
-            const Text('Tap', style: TextStyle(),),
+            const Text(
+              'Tap',
+              style: TextStyle(),
+            ),
             const SizedBox(
               height: 20,
             ),
