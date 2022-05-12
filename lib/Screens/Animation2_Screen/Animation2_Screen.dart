@@ -41,7 +41,7 @@ class _Animation2ScreenState extends State<Animation2Screen>
       appBar: AppBar(
         backgroundColor: Colors.blue[900],
         title: const Text(
-          'Animation 1',
+          'Animation 2',
           style: TextStyle(
             color: Colors.white,
             fontSize: 25,
