@@ -16,7 +16,7 @@ class _Animation1ScreenState extends State<Animation1Screen> {
     return Center(
       child: Lottie.network(
         'https://assets3.lottiefiles.com/packages/lf20_puciaact.json',
-        width: MediaQuery.of(context).size.width / 2,
+        width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height / 2,
       ),
     );
