@@ -10,15 +10,17 @@ class Animation2Screen extends StatefulWidget {
   State<Animation2Screen> createState() => _Animation2ScreenState();
 }
 
-class _Animation2ScreenState extends State<Animation2Screen> with SingleTickerProviderStateMixin{
+class _Animation2ScreenState extends State<Animation2Screen>
+    with SingleTickerProviderStateMixin {
   late final AnimationController _controller;
 
   @override
   void initState() {
     super.initState();
 
-    _controller = AnimationController(vsync: this)
+    _controller = AnimationController(vsync: this);
   }
+
   @override
   Widget build(BuildContext context) {
     return Center(
