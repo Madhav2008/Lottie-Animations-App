@@ -37,7 +37,9 @@ class _Animation2ScreenState extends State<Animation2Screen>
         onTap: () {
           if (liked == false) {
             liked = true;
-          } else {}
+          } else {
+            liked = false;
+          }
         },
         child: Lottie.network(
           'https://assets8.lottiefiles.com/packages/lf20_hqlccpsv.json',
