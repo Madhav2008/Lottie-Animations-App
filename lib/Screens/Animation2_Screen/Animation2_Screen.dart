@@ -11,6 +11,7 @@ class Animation2Screen extends StatefulWidget {
 }
 
 class _Animation2ScreenState extends State<Animation2Screen> {
+  late final AnimationController _controller;
   @override
   Widget build(BuildContext context) {
     return Center(
