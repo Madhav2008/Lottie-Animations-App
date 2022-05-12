@@ -14,7 +14,7 @@ class _Animation1ScreenState extends State<Animation1Screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      child: Center(
+      body: Center(
         child: Lottie.network(
           'https://assets3.lottiefiles.com/packages/lf20_puciaact.json',
           width: MediaQuery.of(context).size.width,
