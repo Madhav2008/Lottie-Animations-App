@@ -38,7 +38,7 @@ class _Animation2ScreenState extends State<Animation2Screen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      child: Center(
+      body: Center(
         child: GestureDetector(
           onTap: () {
             if (liked == false) {
