@@ -14,7 +14,7 @@ class _Animation1ScreenState extends State<Animation1Screen> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Lottie.network(url),
+      child: Lottie.network(''),
     );
   }
 }
